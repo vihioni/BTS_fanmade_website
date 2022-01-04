@@ -164,7 +164,7 @@ html, body{
 #slider{
     position: relative;
     padding-top: 50%;
-    background: url('/assets/img/profile-kv.png') top -196px center / cover no-repeat;
+    background: url('/assets/img/concert.jpg') top -196px center / cover no-repeat;
 }
 
 #slider .slider-text{
