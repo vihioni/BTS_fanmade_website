@@ -202,6 +202,11 @@ html, body{
     overflow: hidden;
 }
 
+/* .memberlist .member-detail:last-child{
+    float: none;
+    margin: auto;
+} */
+
 #content .member-detail img{
     width: 196px;
     border-radius: 5px;
@@ -211,8 +216,11 @@ html, body{
 }
 
 #content .member-detail img:hover{
-    /* animation: memberHover ease 0.5s; */
     transform: scale(1.12);
+}
+
+#content .member-detail img:hover + .member-name{
+    font-weight: 600;
 }
 
 .disc-background{
@@ -226,7 +234,7 @@ html, body{
     margin: auto;
 }
 
-ul.disc-list{
+.disc-list{
     margin-top: 20px;
     list-style: none;
     font-size: 15px;
@@ -237,17 +245,26 @@ ul.disc-list{
     flex-direction: row;
 }
 
-ul.disc-list li{
+.disc-list li{
     padding: 8px;
     position: relative;
 }
 
-.disc-list li .disc-info{
+.disc-list li .disc-name{
+    background-color: rgba(0, 0, 0, 0.6);
     position: absolute;
-    top: 0;
+    top: 8px;
+    left: 8px;
+    right: 8px;
+    bottom: 8px;
 }
 
-.disc-list li .disc-name{
+/* .disc-list li .disc-detail{
+    position: absolute;
+    top: 0;
+} */
+
+/* .disc-list li .disc-name{
     display: none;
     font-size: 15px;
     background-color: rgba(0, 0, 0, 0.8);
@@ -266,9 +283,9 @@ ul.disc-list li{
 .disc-list li:hover .disc-name{
     display: block;
     animation: discHover ease 0.5s;
-}
+} */
 
-ul.disc-list li img{
+.disc-list li img{
     width:100%;
     object-fit: cover;
 }
@@ -278,26 +295,26 @@ ul.disc-list li img{
     margin: auto;
 }
 
-ul.tickets-list{
+.tickets-list{
     list-style: none;
     margin-top: 30px;
     font-size: 15px
 }
 
-ul.tickets-list li{
+.tickets-list li{
     line-height: 40px;
     padding: 0px 16px;
     color: #000;
 }
 
-ul.tickets-list li .sold-out{
+.tickets-list li .sold-out{
     color: #fff;
     background-color: #f44336;
     padding: 4px 8px;
     margin-left: 10px;
 }
 
-ul.tickets-list li .quantity{
+.tickets-list li .quantity{
     float: right;
     width: 28px;
     height: 28px;
@@ -445,8 +462,8 @@ ul.tickets-list li .quantity{
 }
 
 /* keyframe */
-@keyframes discHover{
+/* @keyframes discHover{
     from{
         padding: 0 10px;
     }
-}
+} */
