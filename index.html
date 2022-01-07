@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
     <link rel="stylesheet" href="./assets/fonts/themify-icons-font/themify-icons/themify-icons.css">
     <link rel="shortcut icon" href="./assets/img/BTS logo 1.png" type="image/x-icon">
     <title>BTS Fanmade Website</title>
@@ -20,7 +21,7 @@
                 <li><a href="#tour">Tour</a></li>
                 <li><a href="#contact">Contact</a></li>
                 <li>
-                    <a href="">
+                    <a href="#">
                         More
                         <i class="dropdown-icon ti-angle-down"></i>
                     </a>
@@ -33,11 +34,13 @@
             </ul>
             <!-- end nav -->
 
-            <!-- begin search icon -->
             <div class="header-search">
                 <i class="search-icon ti-search"></i>
             </div>
-            <!-- end search icon -->
+
+            <div id="mobile-menu-id" class="mobile-menu-btn">
+                <i class="menu-icon ti-menu"></i>
+            </div>
         </div>
 
         <div id="slider">
@@ -190,58 +193,58 @@
                     </ul>
 
                     <div class="places-list">
-                        <div class="col col-3 place-buy">
+                        <div class="col col-3 s-col-full place-buy">
                             <img src="./assets/img/places/chicago.jpg" alt="Chicago" class="place-img">
                             <div class="ticket-detail">
                                 <h3 class="place-name">Chicago</h3>
                                 <p class="place-date">July 1 2022</p>
                                 <p class="place-disc">Aerial Dramatic View of Downtown Chicago at Sunset - Lake Shore Drive</p>
-                                <a href="#" class="buy-btn">Buy Tickets</a>
+                                <button class="buy-btn js-buy-ticket">Buy Tickets</button>
                             </div>
                         </div>
-                        <div class="col col-3 place-buy">
+                        <div class="col col-3 s-col-full place-buy">
                             <img src="./assets/img/places/los-angeles.jpg" alt="Los Angeles" class="place-img">
                             <div class="ticket-detail">
                                 <h3 class="place-name">Los Angeles</h3>
                                 <p class="place-date">July 2 2022</p>
-                                <p class="place-disc">Aerial view of the business district in Downtown of Los Angeles in background from Lincoln Heights neighborhood.</p>
-                                <a href="#" class="buy-btn">Buy Tickets</a>
+                                <p class="place-disc">Downtown of Los Angeles in background from Lincoln Heights neighborhood.</p>
+                                <button class="buy-btn js-buy-ticket">Buy Tickets</button>
                             </div>
                         </div>
-                        <div class="col col-3 place-buy">
+                        <div class="col col-3 s-col-full place-buy">
                             <img src="./assets/img/places/new-jersey.jpg" alt="New Jersey" class="place-img">
                             <div class="ticket-detail">
                                 <h3 class="place-name">New Jersey</h3>
                                 <p class="place-date">July 3 2022</p>
                                 <p class="place-disc">Steel Pier - Atlantic City, New Jersey</p>
-                                <a href="#" class="buy-btn">Buy Tickets</a>
+                                <button class="buy-btn js-buy-ticket">Buy Tickets</button>
                             </div>
                         </div>
-                        <div class="col col-3 place-buy">
+                        <div class="col col-3 s-col-full place-buy">
                             <img src="./assets/img/places/osaka.jpg" alt="Osaka" class="place-img">
                             <div class="ticket-detail">
                                 <h3 class="place-name">Osaka</h3>
                                 <p class="place-date">August 1 2022</p>
                                 <p class="place-disc">Osaka Tower and view of the neon advertisements Shinsekai district</p>
-                                <a href="#" class="buy-btn">Buy Tickets</a>
+                                <button class="buy-btn js-buy-ticket">Buy Tickets</button>
                             </div>
                         </div>
-                        <div class="col col-3 place-buy">
+                        <div class="col col-3 s-col-full place-buy">
                             <img src="./assets/img/places/sau-paolo.jpg" alt="Sau Paolo" class="place-img">
                             <div class="ticket-detail">
                                 <h3 class="place-name">Sau Paolo</h3>
                                 <p class="place-date">August 2 2022</p>
                                 <p class="place-disc">Estaiada Bridge Sao Paulo Night Brazil</p>
-                                <a href="#" class="buy-btn">Buy Tickets</a>
+                                <button class="buy-btn js-buy-ticket">Buy Tickets</button>
                             </div>
                         </div>
-                        <div class="col col-3 place-buy">
+                        <div class="col col-3 s-col-full place-buy">
                             <img src="./assets/img/places/hcm.jpg" alt="Ho Chi Minh City" class="place-img">
                             <div class="ticket-detail">
                                 <h3 class="place-name">Ho Chi Minh</h3>
                                 <p class="place-date">August 3 2022</p>
                                 <p class="place-disc">Ho Chi Minh city (aka Saigon) is the biggest city and economic center in Vietnam</p>
-                                <a href="#" class="buy-btn">Buy Tickets</a>
+                                <button class="buy-btn js-buy-ticket">Buy Tickets</button>
                             </div>
                         </div>
                     </div>
@@ -255,20 +258,20 @@
                 <p class="sub-heading-font contact-sub-heading">Fan? Drop a note!</p>
 
                 <div class="contact-content">
-                    <div class="col col-2 contact-info">
+                    <div class="col col-2 s-col-full contact-form">
                         <p><i class="contact-icon ti-location-pin"></i>Seoul, South Korea</p>
-                        <p><i class="contact-icon ti-mobile"></i>Phone: +000000000</p>
-                        <p><i class="contact-icon ti-email"></i>Email: mail@mail.com</p>
+                        <p><i class="contact-icon ti-mobile"></i>Phone: <a href="tel:+000000000">+000000000</a></p>
+                        <p><i class="contact-icon ti-email"></i>Email: <a href="mailto:mail@mail.com">mail@mail.com</a></p>
                     </div>
 
-                    <div class="col col-2 contact-form">
+                    <div class="col col-2 s-col-full contact-form">
                         <form action="">
                             <div class="row contact-wrap">
                                 <div class="name-email">
-                                    <div class="col col-2">
+                                    <div class="col col-2 s-col-full">
                                         <input type="text" placeholder="Name" id="" required class="form-control">
                                     </div>
-                                    <div class="col col-2">
+                                    <div class="col col-2 s-col-full">
                                         <input type="email" placeholder="Email" id="" required class="form-control">
                                     </div>
                                 </div>
@@ -283,10 +286,8 @@
                 </div>
             </div>
             <!-- End contact -->
-
-            <div class="extra-img">
-                <img src="./assets/img/group.jpg" alt="" class="img-group">
-            </div>
+            
+            <img src="./assets/img/group.jpg" alt="extra-img" class="extra-img">
             
         </div>
 
@@ -306,5 +307,101 @@
             <p class="copyright">Copyright © 2021 Big Hit Music / HYBE. All Rights Reserved</p>
         </div>
     </div>
+    <!-- buy ticket modal -->
+    <div class="modal js-modal">
+        <div class="modal-wrap js-modal-wrap">
+            <div class="modal-close js-modal-close">
+                <i class="modal-close-icon ti-close"></i>
+            </div>
+
+            <div class="modal-header">
+                <i class="modal-ticket-icon ti-ticket"></i>
+                <h2 class="modal-title">Tickets</h2>
+            </div>
+
+            <div class="modal-body">
+                <label for="modal-ticket" class="modal-label">
+                    <i class="ti-shopping-cart"></i>
+                    Tickets, $15 per person
+                </label>
+                <input type="text" class="modal-input" placeholder="How many?" name="" id="modal-ticket">
+                
+                <label for="modal-email" class="modal-label">
+                    <i class="ti-user"></i>
+                    Send to
+                </label>
+                <input type="email" class="modal-input" placeholder="Enter email..." name="" id="modal-email">
+
+                <input type="button" value="PAY" class="modal-buy-btn">
+            </div>
+
+            <div class="modal-footer">
+                <p class="modal-help">Need <a href="#">help?</a></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- js ẩn hiện modal -->
+    <script>
+        const buyBtns = document.querySelectorAll(".js-buy-ticket");
+        const modal = document.querySelector(".js-modal");
+        const modalWrap = document.querySelector(".js-modal-wrap");
+        const modalClose = document.querySelector(".js-modal-close");
+        
+        function showBuyticket(event){
+            modal.classList.add('open');
+            event.preventDefault();
+        }
+
+        function hideBuyticket(){
+            modal.classList.remove('open');
+        }
+
+        for (const buyBtn of buyBtns){
+            buyBtn.addEventListener('click', showBuyticket);
+        }
+
+        modalClose.addEventListener('click', hideBuyticket);
+        modal.addEventListener('click', hideBuyticket);
+        modalWrap.addEventListener('click', function(event){
+            event.stopPropagation();
+        })
+    </script>
+
+    <!-- js ẩn hiện menu mobile -->
+    <script>
+        var header = document.getElementById('header');
+        var mobilemenuBtn = document.getElementById('mobile-menu-id');
+        var headerHeight = header.clientHeight;
+        
+        mobilemenuBtn.onclick = function(){
+            var menuClose = header.clientHeight === headerHeight;
+
+            if(menuClose){
+                header.style.height = 'auto';
+            }else{
+                header.style.height = null;
+            }
+        }
+    </script>
+
+    <!-- mở menu cấp 2 của more -->
+    <script>
+        var menuItems = document.querySelectorAll(".nav > li > a[href*='#']");
+        
+        for (var i=0;i<menuItems.length;i++){
+            var menuItem = menuItems[i];
+
+            menuItem.onclick = function(event){
+                var isParent = this.nextElementSibling && this.nextElementSibling.classList.contains('subnav');
+
+                if(isParent){
+                    event.preventDefault();
+                }else{
+                    header.style.height=null;
+                }
+            }
+        }
+    </script>
 </body>
 </html>

@@ -1,0 +1,100 @@
+/* tablet */
+@media (max-width: 1023px)  {
+    #slider{
+        background: url(../img/profile-kv.png) top center / cover no-repeat;
+    }
+
+    #footer{
+        margin-top: -7px;
+    }
+}
+
+/* mobile */
+@media (max-width: 739px){
+    .sub-heading-font{
+        font-size: 14px;
+    }
+
+    .s-col-full{
+        width: 100%;
+    }
+
+    #header{
+        overflow: hidden;
+    }
+
+    #header .nav li{
+        float: none;
+    }
+
+    #header .subnav{
+        position: initial;
+        background: #333;
+        box-shadow: none;
+    }
+
+    #header .subnav li{
+        padding: 8px 16px;
+    }
+    
+    #header .subnav li a{
+        color: #fff;
+    }
+
+    #header .header-search{
+        display: none;
+    }
+
+    .mobile-menu-btn{
+        display: block;
+    }
+
+    #slider {
+        background: url(../img/profile-kv.png) top center / cover no-repeat;
+    }
+
+    #content .member-detail{
+        width: 50%;
+    }
+
+    #content .member-detail:last-child{
+        width: 100%;
+    }
+
+    #content .member-detail img {
+        width: 150px;
+    }
+
+    .disc-list li {
+        width: 50%;
+    }
+
+    @keyframes discHover{
+        from{
+            padding-bottom: 136px;
+        }
+    }
+
+    .ticket-detail .buy-btn{
+        padding: 14px 10px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .contact-form .name-email input{
+        margin-top: 8px;
+    }
+
+    .contact-form .form-message .form-btn {
+        width: 100%;
+        padding: 15px 0;
+    }
+
+    #footer .social-list img{
+        width: 8%;
+    }
+
+    .copyright {
+        font-size: 10px;
+    }
+}
