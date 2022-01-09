@@ -1,3 +1,17 @@
+/* pc */
+@media (min-width: 64em){
+    #header .subnav{
+        animation: subnavDropdown 0.3s ease-in-out;
+        transform-origin: top; /* vị trí bắt đầu chuyển động*/
+    }
+
+    @keyframes subnavDropdown {
+        0% {
+            transform: rotateX(90deg);
+        }
+    }
+}
+
 /* tablet */
 @media (max-width: 63.9375em) and (min-width: 46.25em)  {
     #slider{
@@ -5,7 +19,15 @@
     }
 
     #footer{
-        margin-top: -7px;
+        margin-top: -8px;
+    }
+
+    .slider-logo img{
+        width: 10%;
+    }
+
+    .slider-logo img:hover{
+        width: 10.5%;
     }
 }
 
@@ -53,6 +75,10 @@
         background: url(../img/profile-kv.png) top center / cover no-repeat;
     }
 
+    .slider-logo img {
+        display: none;
+    }
+
     #content .member-detail{
         width: 50%;
     }
@@ -96,5 +122,9 @@
 
     .copyright {
         font-size: 10px;
+    }
+
+    .blackswan-mv{
+        height: 250px;
     }
 }
