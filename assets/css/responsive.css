@@ -79,12 +79,8 @@
         display: none;
     }
 
-    #content .member-detail{
-        width: 50%;
-    }
-
-    #content .member-detail:last-child{
-        width: 100%;
+    #content .member-list{
+        justify-content: center;
     }
 
     #content .member-detail img {

@@ -220,13 +220,22 @@ hr{
     margin: 5px 0;
 }
 
-.member-list{
-    width: 100%;
+.member-list {
     margin: auto;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 90%;
+    justify-content: space-between;
 }
 
-.member-list{
-    overflow: hidden;
+.member-detail {
+    margin: 0 10px;
+}
+
+.member-detail:last-child{
+    width: 100%;
 }
 
 .member-detail img{
@@ -264,7 +273,8 @@ hr{
     display: flex;
     /* có thể thay bằng flex-flow: column wrap; */
     flex-wrap: wrap;
-    flex-direction: row;
+    /* flex-direction: row; */
+    justify-content: space-between;
 }
 
 .disc-list li{
@@ -372,6 +382,7 @@ hr{
 }
 
 .ticket-detail .buy-btn{
+    margin-top: -10px;
     text-decoration: none;
     color: #343A40;
     background: #FFF;
