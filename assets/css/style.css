@@ -459,6 +459,7 @@ html, body{
     background-color: #fff;
     position: relative;
     margin: 0px 24px;
+    animation: modalFadeIn ease 0.5s;
 }
 
 .modal-header{
@@ -553,4 +554,12 @@ html, body{
 
 .mobile-menu-btn:hover{
     background-color: #f44336;
+}
+
+/* modal animation */
+@keyframes modalFadeIn{
+    from{
+        transform: translateY(-140px);
+        opacity: 0;
+    }
 }

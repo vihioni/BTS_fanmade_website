@@ -1,5 +1,5 @@
 /* tablet */
-@media (max-width: 1023px)  {
+@media (max-width: 63.9375em) and (min-width: 46.25em)  {
     #slider{
         background: url(../img/profile-kv.png) top center / cover no-repeat;
     }
@@ -10,7 +10,7 @@
 }
 
 /* mobile */
-@media (max-width: 739px){
+@media (max-width: 46.1875em){
     .sub-heading-font{
         font-size: 14px;
     }
