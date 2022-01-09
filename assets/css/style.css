@@ -225,21 +225,15 @@ hr{
     overflow: hidden;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
-    width: 90%;
-    justify-content: space-between;
 }
 
 .member-detail {
     margin: 0 10px;
-}
-
-.member-detail:last-child{
-    width: 100%;
+    flex: 1;
 }
 
 .member-detail img{
-    width: 196px;
+    width: 200px;
     border-radius: 5px;
     margin: 30px 0 10px;
     transition: transform .5s;
@@ -273,7 +267,6 @@ hr{
     display: flex;
     /* có thể thay bằng flex-flow: column wrap; */
     flex-wrap: wrap;
-    /* flex-direction: row; */
     justify-content: space-between;
 }
 
