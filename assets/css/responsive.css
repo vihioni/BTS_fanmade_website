@@ -79,10 +79,6 @@
         display: none;
     }
 
-    #content .member-list{
-        justify-content: center;
-    }
-
     .disc-list li {
         width: 50%;
     }

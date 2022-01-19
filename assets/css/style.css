@@ -154,7 +154,6 @@ html, body{
     font-size: 20px;
     line-height: 46px;
     padding: 0px 24px;
-    transition: 0.5s;
     cursor: pointer;
 }
 
@@ -181,7 +180,7 @@ html, body{
     transform: translateX(-50%);
     width: 5%;
     padding: 10px;
-    transition: 1s;
+    transition: 2s;
 }
 
 .slider-logo img:hover{
@@ -225,11 +224,11 @@ hr{
     overflow: hidden;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .member-detail {
-    margin: 0 10px;
-    flex: 1;
+    margin: 0 6px;
 }
 
 .member-detail img{
@@ -263,11 +262,9 @@ hr{
     margin-top: 20px;
     list-style: none;
     font-size: 15px;
-    /* căn list theo hàng ngang */
     display: flex;
     /* có thể thay bằng flex-flow: column wrap; */
     flex-wrap: wrap;
-    justify-content: space-between;
 }
 
 .disc-list li{
@@ -338,11 +335,11 @@ hr{
 
 .places-list{
     margin-top: 12px;
-    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .places-list .place-buy{
-    min-height: 453px;
     padding: 5px;
     font-size: 15px;
     display: flex;
